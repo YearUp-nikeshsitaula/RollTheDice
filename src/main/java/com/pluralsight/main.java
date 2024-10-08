@@ -41,27 +41,11 @@ public class main {
 
          }
 
-         //Print display final totals
-        if (twoCounter == 0){
-            System.out.println("No Two Counters");
-        }else {
-            System.out.println("Two Counter: " + twoCounter);
-        }
-        if (fourCounter == 0){
-            System.out.println("No Four Counters");
-        }else {
-            System.out.println("Four Counter: " + fourCounter);
-        }
-        if (sixCounter == 0){
-            System.out.println("No Six Counters");
-        }else {
-            System.out.println("Six Counter: " + sixCounter);
-        }
-        if (sevenCounter == 0){
-            System.out.println("No Seven Counters");
-        }else {
-            System.out.println("Seven Counter: " + sevenCounter);
-        }
+        //Print display final totals
+        System.out.println("---------------------------------");
+        System.out.println("Two Counter: " + twoCounter);
+        System.out.println("Four Counter: " + fourCounter);
+        System.out.println("Six Counter: " + sixCounter);
+        System.out.println("Seven Counter: " + sevenCounter);
     }
-
 }
