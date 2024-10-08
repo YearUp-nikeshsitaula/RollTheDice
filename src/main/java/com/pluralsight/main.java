@@ -43,22 +43,22 @@ public class main {
 
          //Print display final totals
         if (twoCounter == 0){
-            System.out.println("No rolls sum was 2");
+            System.out.println("No Two Counters");
         }else {
             System.out.println("Two Counter: " + twoCounter);
         }
         if (fourCounter == 0){
-            System.out.println("No rolls sum was 6");
+            System.out.println("No Four Counters");
         }else {
             System.out.println("Four Counter: " + fourCounter);
         }
         if (sixCounter == 0){
-            System.out.println("No rolls sum was 6");
+            System.out.println("No Six Counters");
         }else {
             System.out.println("Six Counter: " + sixCounter);
         }
         if (sevenCounter == 0){
-            System.out.println("No rolls sum was 7");
+            System.out.println("No Seven Counters");
         }else {
             System.out.println("Seven Counter: " + sevenCounter);
         }
