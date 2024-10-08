@@ -27,28 +27,41 @@ public class main {
 
         //Incrementing Counters
             if (sum == 2) {
-                twoCounter = sum + 1;
+                twoCounter++;
             }
             if (sum == 4) {
-                fourCounter =  sum + 1;
+                fourCounter++;
             }
             if (sum == 6) {
-                sixCounter = sum + 1;
+                sixCounter++;
             }
             if (sum == 7) {
-                sevenCounter = sum + 1;
+                sevenCounter++;
             }
 
          }
+
          //Print display final totals
         if (twoCounter == 0){
             System.out.println("No rolls sum was 2");
         }else {
             System.out.println("Two Counter: " + twoCounter);
         }
-        System.out.println("Four Counter: " + fourCounter);
-        System.out.println("Six Counter: " + sixCounter);
-        System.out.println("Seven Counter: " + sevenCounter);
+        if (fourCounter == 0){
+            System.out.println("No rolls sum was 6");
+        }else {
+            System.out.println("Four Counter: " + fourCounter);
+        }
+        if (sixCounter == 0){
+            System.out.println("No rolls sum was 6");
+        }else {
+            System.out.println("Six Counter: " + sixCounter);
+        }
+        if (sevenCounter == 0){
+            System.out.println("No rolls sum was 7");
+        }else {
+            System.out.println("Seven Counter: " + sevenCounter);
+        }
     }
 
 }
