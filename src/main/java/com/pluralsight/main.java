@@ -4,10 +4,10 @@ public class main {
 
     public static void main(String[] args) {
 
-        //Created instance of Dice named dice
+    //Created instance of Dice named dice
         Dice dice = new Dice();
 
-         //Declare variables
+    //Declare variables
         int roll1;
         int roll2;
         int twoCounter = 0;
@@ -15,17 +15,17 @@ public class main {
         int sixCounter = 0;
         int sevenCounter = 0;
 
-        //Declared Variables
-        //Loop for 100 times
+    //Declared Variables
+    //Loop for 100 times
         for (int i = 1; i < 101 ; i++) {
             roll1 = dice.roll();
             roll2 = dice.roll();
             int sum = roll1 + roll2;
 
-        // Printing Roll1 and Roll2 with Sum
+    // Printing Roll1 and Roll2 with Sum
             System.out.println("Roll " + i + ": " + roll1 + " - " + roll2 + " Sum: " + sum);
 
-        //Incrementing Counters
+    //Incrementing Counters
             if (sum == 2) {
                 twoCounter++;
             }
@@ -41,7 +41,7 @@ public class main {
 
          }
 
-        //Print display final totals
+    //Print display final totals
         System.out.println("---------------------------------");
         System.out.println("Two Counter: " + twoCounter);
         System.out.println("Four Counter: " + fourCounter);
